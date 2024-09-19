@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		750007DA2C9C3C4600EAFD00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750007D92C9C3C4600EAFD00 /* AppDelegate.swift */; };
+		750007DC2C9C3C4600EAFD00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750007DB2C9C3C4600EAFD00 /* SceneDelegate.swift */; };
+		750007DE2C9C3C4600EAFD00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750007DD2C9C3C4600EAFD00 /* ViewController.swift */; };
+		750007E12C9C3C4600EAFD00 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 750007E02C9C3C4600EAFD00 /* Base */; };
+		750007E42C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 750007E22C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodeld */; };
+		750007E62C9C3C4800EAFD00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 750007E52C9C3C4800EAFD00 /* Assets.xcassets */; };
+		750007E92C9C3C4800EAFD00 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 750007E82C9C3C4800EAFD00 /* Base */; };
+		750007F42C9C3C4800EAFD00 /* American_Sign_LanguageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750007F32C9C3C4800EAFD00 /* American_Sign_LanguageTests.swift */; };
+		750007FE2C9C3C4800EAFD00 /* American_Sign_LanguageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750007FD2C9C3C4800EAFD00 /* American_Sign_LanguageUITests.swift */; };
+		750008002C9C3C4800EAFD00 /* American_Sign_LanguageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 750007FF2C9C3C4800EAFD00 /* American_Sign_LanguageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		750007F02C9C3C4800EAFD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750007CE2C9C3C4600EAFD00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750007D52C9C3C4600EAFD00;
+			remoteInfo = "American Sign Language";
+		};
+		750007FA2C9C3C4800EAFD00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 750007CE2C9C3C4600EAFD00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 750007D52C9C3C4600EAFD00;
+			remoteInfo = "American Sign Language";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		750007D62C9C3C4600EAFD00 /* American Sign Language.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "American Sign Language.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750007D92C9C3C4600EAFD00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		750007DB2C9C3C4600EAFD00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		750007DD2C9C3C4600EAFD00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		750007E02C9C3C4600EAFD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		750007E32C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = American_Sign_Language.xcdatamodel; sourceTree = "<group>"; };
+		750007E52C9C3C4800EAFD00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		750007E82C9C3C4800EAFD00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		750007EA2C9C3C4800EAFD00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		750007EF2C9C3C4800EAFD00 /* American Sign LanguageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "American Sign LanguageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750007F32C9C3C4800EAFD00 /* American_Sign_LanguageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American_Sign_LanguageTests.swift; sourceTree = "<group>"; };
+		750007F92C9C3C4800EAFD00 /* American Sign LanguageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "American Sign LanguageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		750007FD2C9C3C4800EAFD00 /* American_Sign_LanguageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American_Sign_LanguageUITests.swift; sourceTree = "<group>"; };
+		750007FF2C9C3C4800EAFD00 /* American_Sign_LanguageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = American_Sign_LanguageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		750007D32C9C3C4600EAFD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750007EC2C9C3C4800EAFD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750007F62C9C3C4800EAFD00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		750007CD2C9C3C4600EAFD00 = {
+			isa = PBXGroup;
+			children = (
+				750007D82C9C3C4600EAFD00 /* American Sign Language */,
+				750007F22C9C3C4800EAFD00 /* American Sign LanguageTests */,
+				750007FC2C9C3C4800EAFD00 /* American Sign LanguageUITests */,
+				750007D72C9C3C4600EAFD00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		750007D72C9C3C4600EAFD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				750007D62C9C3C4600EAFD00 /* American Sign Language.app */,
+				750007EF2C9C3C4800EAFD00 /* American Sign LanguageTests.xctest */,
+				750007F92C9C3C4800EAFD00 /* American Sign LanguageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		750007D82C9C3C4600EAFD00 /* American Sign Language */ = {
+			isa = PBXGroup;
+			children = (
+				750007D92C9C3C4600EAFD00 /* AppDelegate.swift */,
+				750007DB2C9C3C4600EAFD00 /* SceneDelegate.swift */,
+				750007DD2C9C3C4600EAFD00 /* ViewController.swift */,
+				750007DF2C9C3C4600EAFD00 /* Main.storyboard */,
+				750007E52C9C3C4800EAFD00 /* Assets.xcassets */,
+				750007E72C9C3C4800EAFD00 /* LaunchScreen.storyboard */,
+				750007EA2C9C3C4800EAFD00 /* Info.plist */,
+				750007E22C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodeld */,
+			);
+			path = "American Sign Language";
+			sourceTree = "<group>";
+		};
+		750007F22C9C3C4800EAFD00 /* American Sign LanguageTests */ = {
+			isa = PBXGroup;
+			children = (
+				750007F32C9C3C4800EAFD00 /* American_Sign_LanguageTests.swift */,
+			);
+			path = "American Sign LanguageTests";
+			sourceTree = "<group>";
+		};
+		750007FC2C9C3C4800EAFD00 /* American Sign LanguageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				750007FD2C9C3C4800EAFD00 /* American_Sign_LanguageUITests.swift */,
+				750007FF2C9C3C4800EAFD00 /* American_Sign_LanguageUITestsLaunchTests.swift */,
+			);
+			path = "American Sign LanguageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		750007D52C9C3C4600EAFD00 /* American Sign Language */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750008032C9C3C4800EAFD00 /* Build configuration list for PBXNativeTarget "American Sign Language" */;
+			buildPhases = (
+				750007D22C9C3C4600EAFD00 /* Sources */,
+				750007D32C9C3C4600EAFD00 /* Frameworks */,
+				750007D42C9C3C4600EAFD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "American Sign Language";
+			productName = "American Sign Language";
+			productReference = 750007D62C9C3C4600EAFD00 /* American Sign Language.app */;
+			productType = "com.apple.product-type.application";
+		};
+		750007EE2C9C3C4800EAFD00 /* American Sign LanguageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750008062C9C3C4800EAFD00 /* Build configuration list for PBXNativeTarget "American Sign LanguageTests" */;
+			buildPhases = (
+				750007EB2C9C3C4800EAFD00 /* Sources */,
+				750007EC2C9C3C4800EAFD00 /* Frameworks */,
+				750007ED2C9C3C4800EAFD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750007F12C9C3C4800EAFD00 /* PBXTargetDependency */,
+			);
+			name = "American Sign LanguageTests";
+			productName = "American Sign LanguageTests";
+			productReference = 750007EF2C9C3C4800EAFD00 /* American Sign LanguageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		750007F82C9C3C4800EAFD00 /* American Sign LanguageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 750008092C9C3C4800EAFD00 /* Build configuration list for PBXNativeTarget "American Sign LanguageUITests" */;
+			buildPhases = (
+				750007F52C9C3C4800EAFD00 /* Sources */,
+				750007F62C9C3C4800EAFD00 /* Frameworks */,
+				750007F72C9C3C4800EAFD00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				750007FB2C9C3C4800EAFD00 /* PBXTargetDependency */,
+			);
+			name = "American Sign LanguageUITests";
+			productName = "American Sign LanguageUITests";
+			productReference = 750007F92C9C3C4800EAFD00 /* American Sign LanguageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		750007CE2C9C3C4600EAFD00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					750007D52C9C3C4600EAFD00 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					750007EE2C9C3C4800EAFD00 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 750007D52C9C3C4600EAFD00;
+					};
+					750007F82C9C3C4800EAFD00 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 750007D52C9C3C4600EAFD00;
+					};
+				};
+			};
+			buildConfigurationList = 750007D12C9C3C4600EAFD00 /* Build configuration list for PBXProject "American Sign Language" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 750007CD2C9C3C4600EAFD00;
+			productRefGroup = 750007D72C9C3C4600EAFD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				750007D52C9C3C4600EAFD00 /* American Sign Language */,
+				750007EE2C9C3C4800EAFD00 /* American Sign LanguageTests */,
+				750007F82C9C3C4800EAFD00 /* American Sign LanguageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		750007D42C9C3C4600EAFD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750007E62C9C3C4800EAFD00 /* Assets.xcassets in Resources */,
+				750007E92C9C3C4800EAFD00 /* Base in Resources */,
+				750007E12C9C3C4600EAFD00 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750007ED2C9C3C4800EAFD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750007F72C9C3C4800EAFD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		750007D22C9C3C4600EAFD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750007DE2C9C3C4600EAFD00 /* ViewController.swift in Sources */,
+				750007DA2C9C3C4600EAFD00 /* AppDelegate.swift in Sources */,
+				750007E42C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodeld in Sources */,
+				750007DC2C9C3C4600EAFD00 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750007EB2C9C3C4800EAFD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750007F42C9C3C4800EAFD00 /* American_Sign_LanguageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750007F52C9C3C4800EAFD00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				750007FE2C9C3C4800EAFD00 /* American_Sign_LanguageUITests.swift in Sources */,
+				750008002C9C3C4800EAFD00 /* American_Sign_LanguageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		750007F12C9C3C4800EAFD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750007D52C9C3C4600EAFD00 /* American Sign Language */;
+			targetProxy = 750007F02C9C3C4800EAFD00 /* PBXContainerItemProxy */;
+		};
+		750007FB2C9C3C4800EAFD00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 750007D52C9C3C4600EAFD00 /* American Sign Language */;
+			targetProxy = 750007FA2C9C3C4800EAFD00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		750007DF2C9C3C4600EAFD00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750007E02C9C3C4600EAFD00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		750007E72C9C3C4800EAFD00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				750007E82C9C3C4800EAFD00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		750008012C9C3C4800EAFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		750008022C9C3C4800EAFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		750008042C9C3C4800EAFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "American Sign Language/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mraza.American-Sign-Language";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		750008052C9C3C4800EAFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "American Sign Language/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mraza.American-Sign-Language";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		750008072C9C3C4800EAFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mraza.American-Sign-LanguageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/American Sign Language.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/American Sign Language";
+			};
+			name = Debug;
+		};
+		750008082C9C3C4800EAFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mraza.American-Sign-LanguageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/American Sign Language.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/American Sign Language";
+			};
+			name = Release;
+		};
+		7500080A2C9C3C4800EAFD00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mraza.American-Sign-LanguageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "American Sign Language";
+			};
+			name = Debug;
+		};
+		7500080B2C9C3C4800EAFD00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QWYZYC5KB7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mraza.American-Sign-LanguageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "American Sign Language";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		750007D12C9C3C4600EAFD00 /* Build configuration list for PBXProject "American Sign Language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750008012C9C3C4800EAFD00 /* Debug */,
+				750008022C9C3C4800EAFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750008032C9C3C4800EAFD00 /* Build configuration list for PBXNativeTarget "American Sign Language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750008042C9C3C4800EAFD00 /* Debug */,
+				750008052C9C3C4800EAFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750008062C9C3C4800EAFD00 /* Build configuration list for PBXNativeTarget "American Sign LanguageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				750008072C9C3C4800EAFD00 /* Debug */,
+				750008082C9C3C4800EAFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		750008092C9C3C4800EAFD00 /* Build configuration list for PBXNativeTarget "American Sign LanguageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7500080A2C9C3C4800EAFD00 /* Debug */,
+				7500080B2C9C3C4800EAFD00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		750007E22C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				750007E32C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodel */,
+			);
+			currentVersion = 750007E32C9C3C4600EAFD00 /* American_Sign_Language.xcdatamodel */;
+			path = American_Sign_Language.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 750007CE2C9C3C4600EAFD00 /* Project object */;
+}
